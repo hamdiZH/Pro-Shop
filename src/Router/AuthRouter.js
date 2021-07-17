@@ -9,7 +9,7 @@ function AuthRouter(props) {
         <Route key={45} path={'/login'} component={() => {
             return <Login />;
         }}/>,
-        <Route key={35} path={'/regester'} component={() => {
+        <Route key={35} path={'/register'} component={() => {
             return <SignUp />;
         }} />
     ];

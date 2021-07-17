@@ -7,7 +7,7 @@ function Reviews({name, text, rate, date}) {
         <ReviewContainer>
             <ReviewName>{name}</ReviewName>
             <RateBox>
-                <Rating name="simple-controlled" value={rate} />
+                <Rating readOnly name="simple-controlled" value={rate} />
                 <TextReviewDate>{date.substring(0, 10)}</TextReviewDate>
             </RateBox>
             <ReviewDescription>{text}</ReviewDescription>

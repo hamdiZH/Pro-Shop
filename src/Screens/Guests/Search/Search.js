@@ -49,7 +49,7 @@ function Search(props) {
                                 key={item._id}
                                 id={item._id}
                                 image={"https://proshop-ms.herokuapp.com/" + item.image}
-                                text={item.name}
+                                name={item.name}
                                 // discount={0}
                                 price={item.price}
                                 rate={item.rating}
